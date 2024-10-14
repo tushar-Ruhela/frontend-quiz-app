@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+
+<body>
+  <header>
+  <div class="bar">
+    <div class="current-subject">
+    <div class="curr-sub-image">
+      <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+    </div>
+    <!-- <img class="subject-img" src=""> -->
+    <h2 class="subject-chosen"></h2>
+    </div>
+    <div id="toggle">
+    <div class="sunlight">
+      
+    </div>
+    <div class="change-button">
+<div class="toggle-btn">
+
+</div>
+    </div>
+    <div class="dark-light">
+
+    </div>
+  </div>
+  </div>
+  </header>
+  <main >
+    <!-- main-section -->
+    <section class="quiz-front-page" id="section1">
+    <div class="welcome">
+<span class="about">
+  Welcome to the 
+  <strong>Frontend Quiz!</strong>
+<span>
+  <p>pick a subject to get started.</p>
+    </div>
+    <div class="quiz-subject">
+      <div class="subject" id="HTML" ><div class="image"><img src="assets/images/icon-html.svg" alt="html" class="sub-image"></div><span>HTML</span></div>
+      <div class="subject"  id="CSS"> <div class="image"><img src="assets/images/icon-css.svg" alt="css style" class="sub-image"></div><span>CSS</span></div>
+      <div class="subject" id="JavaScript"> <div class="image"><img src="assets/images/icon-js.svg" alt="js" class="sub-image"></div><span>JavaScript</span></div>
+      <div class="subject" id="Accessibility"> <div class="image"><img src="assets/images/icon-accessibility.svg" alt="Accesbility" class="sub-image"></div><span>Accesbility</span></div>
+    </div>
+  </section>
+
+
+<!-- Question-section -->
+<section class="questions-section">
+<div class="questions">
+<span>Question <span class="numof-question"></span>of<span class="total-question"></span> </span>
+<h4 class="question"> </h4>
+<div class="progress-bar">
+  <div class="progress"></div>
+  
+</div>
+<div id="all-option">
+<button class="option-btn"><div class="options">A</div></button>
+<button class="option-btn"><div class="options">B</div></button>
+<button class="option-btn"><div class="options">C</div></button>
+<button class="option-btn"><div class="options">D</div></button>
+<div class="select-prompt">
+  <img src="./assets/images/icon-error.svg" alt="error icon">
+  <p class="select-prompt-text">Please select an answer</p>
+ 
+</div>
+<button id="submit">submit</button>
+</div>
+
+</div>
+</section>
+
+<!-- score-section -->
+<section class="score-section">
+  <div class="scored">
+    <span>Quiz completed <strong> your scored... </strong><span>
+      
+  </div>
+  <div class="score-box">
+    <div class="sub-logo">
+      <div class="logo">
+
+      </div>
+      <span>html</span>
+    </div>
+    <div class="final-scored">
+    <span id="final-score">
+0
+    </span>
+    <span >
+out of <span class="question-total"></span>
+    </span>
+
+  </div>
+  <button class="restart">
+    Restart
+  </button> 
+  </div>
+
+</section>
+
+  </main>
+
+
+
+  <script src="app.js"></script>
+  
+</body>
+
+</html>
